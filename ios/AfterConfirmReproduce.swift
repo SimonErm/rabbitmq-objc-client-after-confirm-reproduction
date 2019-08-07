@@ -23,7 +23,7 @@ public class Reproducable:NSObject{
     
   }
   private func getUri()->String{
-    var amqpUri = "amqps://";
+    var amqpUri = "amqp://";
     amqpUri.append("guest");
     amqpUri.append(":");
     amqpUri.append("guest".addingPercentEncoding(withAllowedCharacters: CharacterSet.urlPasswordAllowed)!);
