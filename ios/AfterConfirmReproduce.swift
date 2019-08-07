@@ -1,5 +1,4 @@
 import Foundation
-import CleanroomLogger
 @objc
 public class Reproducable:NSObject{
   

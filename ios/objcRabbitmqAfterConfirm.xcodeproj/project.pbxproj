@@ -21,13 +21,11 @@
 		BEBB1FDAD0A1C7605446B7C3 /* libPods-objcRabbitmqAfterConfirmTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D7D0DBD2CC7B351369DFD1C /* libPods-objcRabbitmqAfterConfirmTests.a */; };
 		F81DF93922FAAE0000FA97AA /* AfterConfirmReproduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = F81DF93822FAAE0000FA97AA /* AfterConfirmReproduce.swift */; };
 		F81DF93F22FAAEFA00FA97AA /* JKVValue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81DF93B22FAAEF900FA97AA /* JKVValue.framework */; };
-		F81DF94022FAAEFA00FA97AA /* CleanroomLogger.framework.dSYM in Resources */ = {isa = PBXBuildFile; fileRef = F81DF93C22FAAEF900FA97AA /* CleanroomLogger.framework.dSYM */; };
 		F81DF94122FAAEFA00FA97AA /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81DF93D22FAAEFA00FA97AA /* CocoaAsyncSocket.framework */; };
 		F81DF94222FAAEFA00FA97AA /* RMQClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81DF93E22FAAEFA00FA97AA /* RMQClient.framework */; };
 		F81DF94322FAB9AC00FA97AA /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81DF93D22FAAEFA00FA97AA /* CocoaAsyncSocket.framework */; };
 		F81DF94422FAB9AC00FA97AA /* JKVValue.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81DF93B22FAAEF900FA97AA /* JKVValue.framework */; };
 		F81DF94522FAB9AC00FA97AA /* RMQClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81DF93E22FAAEFA00FA97AA /* RMQClient.framework */; };
-		F81DF94722FAB9AC00FA97AA /* CleanroomLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81DF94622FAB9AC00FA97AA /* CleanroomLogger.framework */; };
 		F978528099A93A09CA2B2F49 /* libPods-objcRabbitmqAfterConfirm-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C2EB2B833534617C4B6561EC /* libPods-objcRabbitmqAfterConfirm-tvOSTests.a */; };
 /* End PBXBuildFile section */
 
@@ -79,10 +77,8 @@
 		F81DF93722FAAE0000FA97AA /* objcRabbitmqAfterConfirm-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "objcRabbitmqAfterConfirm-Bridging-Header.h"; sourceTree = "<group>"; };
 		F81DF93822FAAE0000FA97AA /* AfterConfirmReproduce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AfterConfirmReproduce.swift; sourceTree = "<group>"; };
 		F81DF93B22FAAEF900FA97AA /* JKVValue.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JKVValue.framework; path = Carthage/Build/iOS/JKVValue.framework; sourceTree = "<group>"; };
-		F81DF93C22FAAEF900FA97AA /* CleanroomLogger.framework.dSYM */ = {isa = PBXFileReference; lastKnownFileType = wrapper.dsym; name = CleanroomLogger.framework.dSYM; path = Carthage/Build/iOS/CleanroomLogger.framework.dSYM; sourceTree = "<group>"; };
 		F81DF93D22FAAEFA00FA97AA /* CocoaAsyncSocket.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CocoaAsyncSocket.framework; path = Carthage/Build/iOS/CocoaAsyncSocket.framework; sourceTree = "<group>"; };
 		F81DF93E22FAAEFA00FA97AA /* RMQClient.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RMQClient.framework; path = Carthage/Build/iOS/RMQClient.framework; sourceTree = "<group>"; };
-		F81DF94622FAB9AC00FA97AA /* CleanroomLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CleanroomLogger.framework; path = Carthage/Build/iOS/CleanroomLogger.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,7 +86,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F81DF94722FAB9AC00FA97AA /* CleanroomLogger.framework in Frameworks */,
 				F81DF94322FAB9AC00FA97AA /* CocoaAsyncSocket.framework in Frameworks */,
 				F81DF94422FAB9AC00FA97AA /* JKVValue.framework in Frameworks */,
 				F81DF94522FAB9AC00FA97AA /* RMQClient.framework in Frameworks */,
@@ -164,8 +159,6 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F81DF94622FAB9AC00FA97AA /* CleanroomLogger.framework */,
-				F81DF93C22FAAEF900FA97AA /* CleanroomLogger.framework.dSYM */,
 				F81DF93D22FAAEFA00FA97AA /* CocoaAsyncSocket.framework */,
 				F81DF93B22FAAEF900FA97AA /* JKVValue.framework */,
 				F81DF93E22FAAEFA00FA97AA /* RMQClient.framework */,
@@ -374,7 +367,6 @@
 			files = (
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				13B07FBD1A68108700A75B9A /* LaunchScreen.xib in Resources */,
-				F81DF94022FAAEFA00FA97AA /* CleanroomLogger.framework.dSYM in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,7 +512,6 @@
 			inputFileListPaths = (
 			);
 			inputPaths = (
-				"$(SRCROOT)/Carthage/Build/iOS/CleanroomLogger.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/CocoaAsyncSocket.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/JKVValue.framework",
 				"$(SRCROOT)/Carthage/Build/iOS/RMQClient.framework",
@@ -528,7 +519,6 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CleanroomLogger.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/CocoaAsyncSocket.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/JKVValue.framework",
 				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RMQClient.framework",
